@@ -1,0 +1,14 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+OS_ICON=  
+PS1="\n \[\033[0;34m\]╭─\[\033[0;46m\]\[\033[1;30m\]\[\033[46m\] $OS_ICON \u \[\033[0m\]\[\033[46m\]\[\033[45m\]\[\033[0;34m\]\[\033[44m\]\[\033[1;36m\]\[\033[45m\] \w \[\033[0;45m\]\[\033[0;35m\] \n \[\033[0;34m\]╰ \[\033[1;36m\]\$ \[\033[0m\]"
+
+
+neofetch
