@@ -1,0 +1,102 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "/home/iridium/.config/fastfetch/lotus.txt",
+	"color": {
+            "1": "magenta"
+        },
+//	"width": 40,
+//	"height": 20,
+	"preserveAspectRatio": "true",
+	"position": "left"
+    },
+    "display": {
+        "constants": [
+            ""
+        ],
+	"separator": "",
+	"key": {
+		"type": "both"
+	},
+	"percent": {
+		"type": 1 
+	}
+    },
+    "modules": [
+	{
+	    "type": "break"
+	},
+	{
+   	    "type": "break"
+	},
+	{
+	    "type": "title",
+	    "color": {
+	   	 "user": "cyan",
+		 "at": "dim_",
+		 "host": "dim_"
+	    }
+	},
+	{
+  	    "type": "custom",
+	    "outputColor": "magenta",
+	    "format": "-----------------"
+	},
+        {
+	    "format": "{3}",	
+            "key": "{$1}",
+            "keyColor": "38;5;39",
+            "type": "os",
+	    "keyIcon": "󰣇"
+        },
+        {
+	    "format": "{2}",	
+            "key": "{$1}",
+            "keyColor": "38;5;140",
+            "type": "wm"
+        },
+	{
+	    "format": "{5}",	
+	    "key": "{$1}",
+	    "keyColor": "38;5;120",
+	    "type": "terminal",
+	    "keyIcon": ""
+	},
+	{
+	   "key": "{$1}",	
+	   "format": "{6}",
+	   "type": "shell",
+	   "keyColor": "38;5;5",
+	   "keyIcon": ""
+	},
+//        {
+//	    "format": "{1}",
+//            "key": "{$1}",
+//            "keyColor": "38;5;75",
+//            "type": "cpu" 		//too long
+//        },
+        {
+	    "format": "{1} / {2}",	
+            "key": "{$1}",
+            "keyColor": "38;5;49",
+            "type": "memory"
+        },
+	{
+	    "key": "{$1}",
+	    "keyColor": "38;5;3",
+	    "type": "uptime",
+	    "keyIcon": ""
+	},
+	{
+	    "type": "break"
+	},
+	{
+	    "type": "colors",
+	    "symbol": "circle"
+//	    "block": { 			//block symbol formatting
+//		"width": 3,
+//		"range": [2, 7]
+//	    }
+	}
+    ]
+}
