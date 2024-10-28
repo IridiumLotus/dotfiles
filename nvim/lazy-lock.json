@@ -1,0 +1,11 @@
+{
+  "cmp-buffer": { "branch": "main", "commit": "3022dbc9166796b644a841a02de8dd1cc1d311fa" },
+  "cmp-nvim-lsp": { "branch": "main", "commit": "39e2eda76828d88b773cc27a3f61d2ad782c922d" },
+  "dashboard-nvim": { "branch": "master", "commit": "d2c5a4d1341f5ca1ed2ecb4ecfcff2bc8ea18b14" },
+  "lazy.nvim": { "branch": "main", "commit": "cf8ecc2c5e4332760431a33534240b0cbc6680ab" },
+  "nvim": { "branch": "main", "commit": "cf021ebfb1e400a5fd1615cbda024308ca589b18" },
+  "nvim-cmp": { "branch": "main", "commit": "29fb4854573355792df9e156cb779f0d31308796" },
+  "nvim-tree.lua": { "branch": "master", "commit": "14039337a563f4efd72831888f332a15585f0ea1" },
+  "nvim-treesitter": { "branch": "master", "commit": "00d219068385a4aa80859d4606ad6e03af6faa83" },
+  "nvim-web-devicons": { "branch": "master", "commit": "19d257cf889f79f4022163c3fbb5e08639077bd8" }
+}
